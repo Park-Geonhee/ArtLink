@@ -46,4 +46,92 @@
    npm run dev
    ```
 
+## 컴포넌트 구조(기능 기준)
+
+```
+.
+├── Entrance
+│   ├── EntranceLogo
+│   ├── LogIn
+│   └── SignUp
+├── Base
+│   ├── MainLogo
+│   ├── Menu
+│   └── BigButton
+├── ViewExhibition
+│   ├── ExhibitionTable
+│   │   └── Artwork
+│   ├── View3D
+│   ├── ExhibitionBox
+│   │   ├── ExhibitionImage
+│   │   ├── ExhibitionInfo
+│   │   ├── GoDetailButton
+│   │   └── MyRecordButton
+│   └── MyRecordBox
+│       ├── MyRecordInfo
+│       └── ArtworkBox
+│           ├── ArtworkInfo
+│           └── EditButton
+│               ├── AddMemo
+│               └── DeleteArtwork
+├── MyPage
+│   ├── ProfileBox
+│   │   ├── ProfileImage
+│   │   └── ProfileInfo
+│   └── MyInfoBox
+│       └── MyInfoRow
+├── Manage
+│   ├── InfoTable
+│   └── InfoRow
+└── ArtworkCRUD
+    ├── InputImage
+    ├── InputInfo
+    │   └── InputInfoRow
+    └── UpdateButton
+```
+
+<!-- # Entrance
+## EntranceLogo
+## LogIn
+## SignUp
+
+# Base
+## MainLogo
+## Menu
+## BigButton
+
+# ViewExhibition
+## ExhibitionTable
+### Artwork
+## View3D
+## ExhibitionBox
+### ExhibitionImage
+### ExhibitionInfo
+### GoDetailButton
+### MyRecordButton
+## MyRecordBox
+### MyRecordInfo
+### ArtworkBox
+#### ArtworkInfo
+#### EditButton
+##### AddMemo
+##### DeleteArtwork
+
+# MyPage
+## ProfileBox
+### ProfileImage
+### ProfileInfo
+## MyInfoBox
+### MyInfoRow
+
+# Manage
+## InfoTable
+## InfoRow
+
+# ArtworkCRUD
+## InputImage
+## InputInfo
+### InputInfoRow
+## UpdateButton -->
+
 ## 디렉토리 구조

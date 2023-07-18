@@ -1,10 +1,10 @@
-# 웹 IoT Frontend
+# ArtLink Frontend
 
 <!-- 필수 항목 -->
 
 ## 소개
 
-웹 IoT 프로젝트의 Frontend 스켈레톤 코드
+**ArtLink** 프로젝트의 Frontend 코드
 
 <!-- 필수 항목 -->
 
@@ -32,7 +32,7 @@
 2. frontend 폴더로 이동
 
    ```
-   cd <folder-name>/frontend
+   cd <folder-name>/frontend/artlink-front
    ```
 
 3. 패키지 설치
@@ -43,61 +43,7 @@
 
 4. 프로젝트 실행
    ```
-   npm start
+   npm run dev
    ```
 
 ## 디렉토리 구조
-
-```
-/src
-	/common
-	- CommonHooks.jsx                -> key press, local storage state
-	- InfiniteScroll.jsx             -> handle infinite scroll
-	- MediaQueryHooks.jsx            -> material-ui useMediaQuery hooks
-
-	/components
-		/Auth
-			/SignResponsiveDialog        -> sigin in, sigin up, recover pw
-		/Create
-			/CreateVoteComponent         -> create a vote
-			/DialogActionsComponet       -> create a vote
-			/RadioButtonsGroup           -> create a vote
-		/Feed                            -> vote feed
-		/Grid
-			/VoteGridItem                -> vote item
-			/VoteGridList                -> vote root
-			/VoteGridTitle               -> vote title
-		/Main
-			/ButtonBases                 -> category head
-			/CheckBoxButtonsGroup        -> vote options
-			/HorizontalBar               -> perceantage chart
-			/VoteDetailResponsiveDialog  -> vote result
-		/Search
-			/SearchComponent             -> search vote
-		/User
-			/ChangePassword              -> change pw
-			/MyInfo                      -> user info
-			/UserResponsiveDialog        -> user dialog root
-			/VerticalTabs                -> user dialog side nav
-
-	/context                         -> create context
-
-	/css                             -> reset css
-
-	/layout
-		/Drawer                        -> side nav
-		/Footer                        -> footer
-		/Header                        -> head nav
-		/Layout                        -> layout root
-
-	/pages
-	- Auth                       -> user
-	- AboutMe                    -> about me
-	- ContactUs                  -> contact us
-	- CreateVote                 -> create vote
-	- MainVote                   -> vote
-	- MyVote                     -> my vote
-	- NotFound                   -> 404 page
-	- SearchVote                 -> search
-	- Terms                 	 -> terms
-```

@@ -1,11 +1,19 @@
 // import React from 'react'
+import Styles from "./BigButton.module.css";
 
-function BigButton() {
+interface Props {
+  tabName: string;
+}
+
+const BigButton: React.FC<Props> = ({ tabName }) => {
   return (
     <>
-      <h1>BigButton</h1>
+      <div className={Styles.BigBtn}>
+        <h1>BigButton</h1>
+        {tabName}
+      </div>
     </>
   );
-}
+};
 
 export default BigButton;

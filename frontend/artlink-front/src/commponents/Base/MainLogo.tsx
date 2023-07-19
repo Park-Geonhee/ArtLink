@@ -1,9 +1,12 @@
 // import React from "react";
+import { Link } from "react-router-dom";
 
 function MainLogo() {
   return (
     <>
-      <h1>MainLogo</h1>
+      <Link to="/home">
+        <h1>MainLogo</h1>
+      </Link>
     </>
   );
 }

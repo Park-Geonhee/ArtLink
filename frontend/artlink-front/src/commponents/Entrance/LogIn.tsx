@@ -1,6 +1,7 @@
 // import React from 'react'
 import styles from "./LogIn.module.css";
 
+// 로그인 화면
 function LogIn() {
   return (
     <div className={styles.container}>

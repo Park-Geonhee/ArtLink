@@ -1,6 +1,7 @@
 // import React from 'react'
 import styles from "./SignUp.module.css";
 
+// 회원 가입 화면
 function SignUp() {
   return (
     <>

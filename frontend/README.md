@@ -10,14 +10,13 @@
 
 ## 기술스택 및 라이브러리
 
-| Tech         | Version | Description           |
-| ------------ | ------- | --------------------- |
-| TypeScript   | 5.0.2   | JavaScript Superset   |
-| Three.js     |         | JavaScript 3D Library |
-| React        | 18.2.0  | JavaScript Framework  |
-| ESLint       | 8.44.0  |                       |
-| Vite         | 4.4.0   |                       |
-| React Router |         |                       |
+| Tech       | Version | Description           |
+| ---------- | ------- | --------------------- |
+| TypeScript | 5.0.2   | JavaScript Superset   |
+| Three.js   |         | JavaScript 3D Library |
+| React      | 18.2.0  | JavaScript Framework  |
+| ESLint     | 8.44.0  |                       |
+| Vite       | 4.4.0   |                       |
 
 <!-- 필수 항목 -->
 
@@ -60,20 +59,10 @@
 │   └── BigButton
 ├── ViewExhibition
 │   ├── ExhibitionTable
-│   │   └── Artwork
 │   ├── View3D
 │   ├── ExhibitionBox
-│   │   ├── ExhibitionImage
-│   │   ├── ExhibitionInfo
-│   │   ├── GoDetailButton
-│   │   └── MyRecordButton
 │   └── MyRecordBox
-│       ├── MyRecordInfo
 │       └── ArtworkBox
-│           ├── ArtworkInfo
-│           └── EditButton
-│               ├── AddMemo
-│               └── DeleteArtwork
 ├── MyPage
 │   ├── ProfileBox
 │   │   ├── ProfileImage
@@ -90,7 +79,8 @@
     └── UpdateButton
 ```
 
-<!-- # Entrance
+<!--
+# Entrance
 ## EntranceLogo
 ## LogIn
 ## SignUp
@@ -102,20 +92,10 @@
 
 # ViewExhibition
 ## ExhibitionTable
-### Artwork
 ## View3D
 ## ExhibitionBox
-### ExhibitionImage
-### ExhibitionInfo
-### GoDetailButton
-### MyRecordButton
 ## MyRecordBox
-### MyRecordInfo
 ### ArtworkBox
-#### ArtworkInfo
-#### EditButton
-##### AddMemo
-##### DeleteArtwork
 
 # MyPage
 ## ProfileBox
@@ -132,6 +112,7 @@
 ## InputImage
 ## InputInfo
 ### InputInfoRow
-## UpdateButton -->
+## UpdateButton
+-->
 
 ## 디렉토리 구조

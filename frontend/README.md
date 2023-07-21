@@ -65,8 +65,6 @@
 │       └── ArtworkBox
 ├── MyPage
 │   ├── ProfileBox
-│   │   ├── ProfileImage
-│   │   └── ProfileInfo
 │   └── MyInfoBox
 │       └── MyInfoRow
 ├── Manage
@@ -99,8 +97,6 @@
 
 # MyPage
 ## ProfileBox
-### ProfileImage
-### ProfileInfo
 ## MyInfoBox
 ### MyInfoRow
 

@@ -1,0 +1,10 @@
+.BigBtnBox3 {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+
+.BigBtnBox2 {
+  display: flex;
+  justify-content: space-around;
+}

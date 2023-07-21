@@ -1,11 +1,11 @@
 // import React from 'react';
 
 // 내 정보들이 들어갈 컴포넌트
-function MyInfoBox() {
+function MyInfoTable() {
   return (
     <>
-      <h1>MyInfoBox</h1>
+      <h1>MyInfoTable</h1>
     </>
   );
 }
-export default MyInfoBox;
+export default MyInfoTable;

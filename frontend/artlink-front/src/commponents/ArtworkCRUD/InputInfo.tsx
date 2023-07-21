@@ -1,4 +1,6 @@
 // import React from 'react';
+
+// 작품 세부 사항
 function InputInfo() {
   return (
     <>

@@ -16,6 +16,8 @@ const year = 23;
 const month = 7;
 const day = 20;
 
+// 내가 관람한 전시회를 보여줄 컴포넌트
+// 클릭 시 전시회 세부 조회 페이지로 넘어간다.
 function ExhibitionTable() {
   return (
     <>
